@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/activity_add_contact.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/activity_contact_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/activity_recent_details.xml" value="0.1" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/call_logs_list_item.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/contact_item.xml" value="0.1" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/fragment_call.xml" value="0.1" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/fragment_dashboard.xml" value="0.13043478260869565" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/fragment_recent_call.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/layout/item_recycler_view_layout.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/First Project Lads Tech/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/app/src/main/res/drawable/icon_dashboard.xml" value="0.19583333333333333" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/activity_add_contact.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/activity_contact_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/contact_item.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/content_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/fragment_call.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/fragment_chat.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/fragment_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/app/src/main/res/layout/navigation_header.xml" value="0.1796875" />
+        <entry key="..\:/LadsTech/app/src/main/res/menu/menu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
