@@ -49,4 +49,5 @@ dependencies {
     implementation 'com.github.myinnos:AlphabetIndex-Fast-Scroll-RecyclerView:1.0.95'
     implementation 'com.jakewharton:butterknife:10.2.3'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+    implementation 'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar'
 }

@@ -15,12 +15,18 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sibtain.navigation.R
-import com.sibtain.navigation.adapter.RecyclerViewAdapter
+import com.sibtain.navigation.adapter.RecentCallLogsListStickeyHeaderAdapter
 import com.sibtain.navigation.model.Contacts
 import com.sibtain.navigation.utility.AlphabetItem
 import kotlinx.android.synthetic.main.fragment_dashboard.view.*
 import java.util.*
 import kotlin.collections.ArrayList
+import com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersDecoration
+
+
+
+
+
 
 open class DashboardFragment : Fragment() {
 
@@ -146,9 +152,18 @@ open class DashboardFragment : Fragment() {
         initialiseData()
         initialiseUI()
 
-
         vie.recyclerView.layoutManager = LinearLayoutManager(activity)
-        vie.recyclerView.adapter = activity?.let { RecyclerViewAdapter(contactListFiltered, it) }
+      var  recentCallLogsListStickeyHeaderAdapter =
+          context?.let { RecentCallLogsListStickeyHeaderAdapter(contactListFiltered, it) }
+
+        vie.recyclerView.setItemViewCacheSize(20)
+        vie.recyclerView.drawingCacheQuality = View.DRAWING_CACHE_QUALITY_LOW
+        vie.recyclerView.setAdapter(recentCallLogsListStickeyHeaderAdapter)
+        val mDecor = StickyRecyclerHeadersDecoration(recentCallLogsListStickeyHeaderAdapter)
+        if (0 == vie.recyclerView.getItemDecorationCount()) {
+            vie.recyclerView.addItemDecoration(mDecor)
+        }
+
         Objects.requireNonNull(vie.recyclerView.layoutManager)?.scrollToPosition(0)
     }
 
